@@ -11,6 +11,8 @@
 		BE5E49B126A984E900AAF889 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E49B026A984E900AAF889 /* ContentView.swift */; };
 		BE5E49B326A984EB00AAF889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE5E49B226A984EB00AAF889 /* Assets.xcassets */; };
 		BE5E49B626A984EB00AAF889 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE5E49B526A984EB00AAF889 /* Preview Assets.xcassets */; };
+		BE5E49BF26A9851A00AAF889 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E49BE26A9851A00AAF889 /* RoundedShape.swift */; };
+		BE5E49C126A9854800AAF889 /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E49C026A9854800AAF889 /* ChartModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		BE5E49B226A984EB00AAF889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE5E49B526A984EB00AAF889 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE5E49B726A984EB00AAF889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE5E49BE26A9851A00AAF889 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
+		BE5E49C026A9854800AAF889 /* ChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		BE5E49AD26A984E900AAF889 /* SwiftUISimpleCharts */ = {
 			isa = PBXGroup;
 			children = (
+				BE5E49BD26A984F500AAF889 /* Charts */,
 				BE5E49AE26A984E900AAF889 /* SwiftUISimpleChartsApp.swift */,
 				BE5E49B026A984E900AAF889 /* ContentView.swift */,
 				BE5E49B226A984EB00AAF889 /* Assets.xcassets */,
@@ -67,6 +72,15 @@
 				BE5E49B526A984EB00AAF889 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE5E49BD26A984F500AAF889 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				BE5E49BE26A9851A00AAF889 /* RoundedShape.swift */,
+				BE5E49C026A9854800AAF889 /* ChartModel.swift */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,8 @@
 			files = (
 				BE5E49B126A984E900AAF889 /* ContentView.swift in Sources */,
 				BE5E49AF26A984E900AAF889 /* SwiftUISimpleChartsApp.swift in Sources */,
+				BE5E49C126A9854800AAF889 /* ChartModel.swift in Sources */,
+				BE5E49BF26A9851A00AAF889 /* RoundedShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
